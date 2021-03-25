@@ -1,0 +1,205 @@
+
+html body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  position: relative;
+  vertical-align: baseline;
+  background-color: deepskyblue;
+}
+a{
+  text-decoration: none;
+  list-style: none;
+}
+.about,.skills,.education,.languages,.contact,.experience{
+  padding: 40px;
+  min-height: 330px;
+}
+
+.education, .language, .language, .experience{
+  margin-top: 30px;
+
+}
+
+header{
+  text-align: center;
+  min-height: 400px;
+  overflow: hidden;
+  position:relative;
+  padding-top: 160px;
+  padding-bottom: 140px;
+}
+
+header img{
+  display: inline-block !important;
+  border: 3px solid white;
+  padding: 5px;
+}
+
+header h2{
+  padding-top:40px;
+}
+.about{
+  background: white;
+}
+
+.skills{
+  background: #3366cc;
+  color: #f5f5f5;
+}
+
+.skills .progress{
+  border-radius: 0px;
+  height: 4px;
+}
+
+.skills .progress .progress-bar-primary{
+  background: #204090;
+}
+
+.skills strong{
+  display: inline-block;
+  font-weight: normal;
+  padding-bottom: 6px;
+}
+
+.education{
+  background: white;
+  position: relative;
+}
+.education:hover .hoverhed {
+  opacity: 0.90;
+}
+.education .education-content{
+  padding-bottom: 14px;
+}
+
+.education h5{
+  display: inline-block;
+}
+
+.education span{
+  margin-right: 10px;
+  padding-left: 20px;
+}
+
+.language{
+  background: #3366cc;
+  color: #f5f5f5;
+  margin-top: 29px;
+}
+
+.language ul{
+  padding: 0 50px 320px;
+
+}
+
+.language ul li{
+  padding-bottom: 15px;
+  padding-right:25px;
+}
+
+.language h2{
+  padding: 25px;
+}
+
+.contact{
+  background: white;
+  margin-top: 30px;
+  position: relative;
+}
+
+.contact:hover .hoverhed-2 {
+  opacity: 1;
+  color: white;
+}
+
+.contact p{
+  padding: 0 0 24px;
+}
+
+.experience{
+  position: relative;
+  background: #3366cc;
+  color: #f5f5f5;
+  cursor: pointer;
+}
+.experience:hover .hoverhed {
+  opacity: 0.90;
+}
+.experience-content{
+  padding-bottom: 14px;
+}
+
+.experience h5{
+  display: inline-block;
+}
+
+
+footer{
+  font-size: 20px;
+}
+footer .footer{
+  text-align: center;
+
+}
+
+footer .footer ul li{
+  display: inline-block;
+  margin-left: 20px;
+  color: white;
+
+}
+
+.hoverhed{
+  position: absolute;
+  top:0; bottom:0; left:0; right:0;
+  height: 100%; width: 100%;
+  opacity: 0; trasition: all .15;
+  background-color: #3C3F44;
+}
+
+.hoverhed-2{
+  position: absolute;
+  top:0; bottom:0; left:0; right:0;
+  height: 100%; width: 100%;
+  opacity: 0; trasition: all .15;
+  background-color: #3C3F44;
+}
+
+.hoverhed a{
+  color:white;
+  font-size: 2rem;
+  position: absolute;
+  text-decoration:none;
+  top: 50%; left:50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+
+  transform: translate(0, 0, 10px);
+}
+
+.action-button{
+  text-decoration:none;
+  background: #3498DB;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 10px;
+  font-style: arial;
+  border-bottom: 5px solid #2980DB;
+  text-shadow: 0px -2px #2980BD;
+  transition: all .1s;
+  float: left;
+  -webkit-transition: all 0.1s;
+}
+
+action-button:active {
+  transform: translate(0, 5px);
+  border-bottom: 1px;
+  -webkit-transform: translate(0px,5px);
+}
